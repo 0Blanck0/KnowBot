@@ -1,10 +1,10 @@
 const Discord = require('discord.js');
 const Bot = new Discord.Client();
 const PREFXE = '-';
-const CREATEUR = '_Blanck_#8264';
-const InvitServe = 'https://discord.gg/KxK4vWg';
+const CREATEUR = '#';
+const InvitServe = '#';
 const EmbedColor = '#59F4E0';
-const InvitBot = 'https://discordapp.com/oauth2/authorize?client_id=464167637824569353&scope=bot&permissions=2146958847';
+const InvitBot = '#';
 const AvaImg = './KnowBotimg.jpg'
 var GuildMessage14Ok = ['Nocont'];
 var GuildMessage25Ok = ['Nocont'];
@@ -182,4 +182,4 @@ Bot.on('message', message => {
 });
 
 
-Bot.login('NDY0MTY3NjM3ODI0NTY5MzUz.Di_ZhQ.Oe44kr5gpbjFOoCHOapp-aIN3sw');
+Bot.login('#');
